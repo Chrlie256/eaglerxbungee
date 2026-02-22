@@ -11,8 +11,8 @@ export const config: Config = {
         l2: "lol"
     },
     server: {
-        host: "locahost",
-        port: 25565
+        host: "yourmomsabaddie.aternos.me",
+        port: 47726
     },
     security: { // provide path to key & cert if you want to enable encryption/secure websockets
         enabled: false,
