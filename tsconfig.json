@@ -5,6 +5,6 @@
       "target": "es2017",
       "moduleResolution": "node",
       "sourceMap": false,
-      "outDir": "build"
+      "outDir": "dist"
     }
   }
