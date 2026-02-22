@@ -3,7 +3,7 @@ import { Config } from "./types.js";
 export const config: Config = {
     name: "BasedProxy",
     bindHost: "0.0.0.0",
-    bindPort: 8080, // 443 if using TLS
+    bindPort: parseInt(process.env.PORT || "8080"),, // 443 if using TLS
     maxPlayers: 20,
     motd: {
         iconURL: null,
